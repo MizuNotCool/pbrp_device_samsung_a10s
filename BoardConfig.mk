@@ -18,6 +18,9 @@
 # Device Tree Path
 DEVICE_PATH := device/samsung/a10s
 
+# PBRP Props
+PB_TORCH_PATH := /sys/devices/platform/flashlights_led191/led_flash
+
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
